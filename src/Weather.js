@@ -42,18 +42,18 @@ export default function Weather(props) {
     return (
       <div className="Weather">
         <a
-          href="https://www.shecodes.io/"
+          href="https://weather.com/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/images/logo.png" className="logo" alt="SheCodes Logo" />
+          <img src="/images/logo.png" className="logo" alt="Logo" />
         </a>
         <form onSubmit={handleSubmit}>
           <div className="row">
             <div className="col-9 ">
               <input
                 type="search"
-                placeholder="Enter a city.."
+                placeholder="Enter name of a city.."
                 className="form-control search-input"
                 onChange={handleCityChange}
               />
@@ -72,15 +72,15 @@ export default function Weather(props) {
         <footer>
           This project was coded by{" "}
           <a
-            href="https://www.shecodes.io/"
+            href="https://weather.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            SheCodes
+           Elahe
           </a>{" "}
           and is{" "}
           <a
-            href="https://github.com/shecodesio/weather"
+            href="https://weather.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -88,7 +88,7 @@ export default function Weather(props) {
           </a>{" "}
           and{" "}
           <a
-            href="https://shecodes-weather.netlify.app/"
+            href="https://weather.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
